@@ -6,6 +6,9 @@ set(CMAKE_C_STANDARD 11)
 add_executable(linear
         practices/practic_25.09.25/linear.c)
 
+add_executable(quadratic_equation
+        practices/practic_02.10.25/quadratic_equation.c)
+
 add_executable(programming_basics_course
         practices/practic_16.10.25/main.c)
 
