@@ -4,13 +4,13 @@ project(programming_basics_course C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(linear
-        practices/practic_25.09.25/linear.c)
+        practices/25.09.25_practic/linear.c)
 
 add_executable(quadratic_equation
-        practices/practic_02.10.25/quadratic_equation.c)
+        practices/02.10.25_practic/quadratic_equation.c)
 
 add_executable(programming_basics_course
-        practices/practic_16.10.25/main.c)
+        practices/16.10.25_practic/main.c)
 
 add_executable(middle_normal
-        practices/practic_23.10.25/middle_normal.c)
+        practices/23.10.25_practic/middle_normal.c)
