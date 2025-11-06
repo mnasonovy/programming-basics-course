@@ -25,6 +25,10 @@ add_executable(middle_normal
         practices/23.10.25_practic/middle_normal.c
 )
 
+add_executable(abs_sort_no_arrays
+        practices/06.11.25_practic/abs_sort_no_arrays.c
+)
+
 # --- Подключаем тестовую систему ---
 add_subdirectory(C/base/tests/test_runner)
 
