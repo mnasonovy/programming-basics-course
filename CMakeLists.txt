@@ -29,8 +29,10 @@ add_executable(abs_sort_no_arrays
         practices/06.11.25_practic/abs_sort_no_arrays.c
 )
 
-# --- Подключаем тестовую систему ---
-add_subdirectory(C/base/tests/test_runner)
+add_executable(index_sorting
+        practices/20.11.25_practic/index_sorting.c
+)
+
 
 # --- Универсальная цель Rebuild ---
 add_custom_target(rebuild
